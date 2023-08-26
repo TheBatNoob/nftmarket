@@ -1,0 +1,60 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff; /* Container background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+.title {
+  color: #0077b6; /* Title color (blue) */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.connect-button,
+.action-button {
+  background-color: #0077b6; /* Button background color (blue) */
+  color: #fff; /* Button text color (white) */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.connect-button:hover,
+.action-button:hover {
+  background-color: #005f90; /* Button background color on hover (darker blue) */
+}
+
+.wallet-connected {
+  background-color: #4CAF50; /* Wallet connected box background color (green) */
+  color: #fff; /* Text color (white) */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.wallet-connected h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.wallet-connected p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
